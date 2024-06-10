@@ -1,0 +1,107 @@
+repo_name: PetrJoe/beego-WebIM
+report_id: 1a300bdaedaddb82df3aeb50d5cf66e5
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-10T11:30:52+00:00'
+requested_by: anurag
+provider: github
+branch: master
+detected_tools_count: 7
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/PetrJoe/beego-WebIM
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/PetrJoe/beego-WebIM
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/PetrJoe/beego-WebIM
+  detection_source: Repo Metadata
+- name: websocket
+  description: A fast
+  package_url: https://pkg.go.dev/github.com/gorilla/websocket
+  version: 1.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/PetrJoe/beego-WebIM/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Anurag Goel
+  last_updated_on: 2019-04-09 19:30:00.000000000 Z
+  vulnerabilities:
+  - name: Integer overflow in github.com/gorilla/websocket
+    cve_id: CVE-2020-27813
+    cve_url: https://github.com/advisories/GHSA-3xh2-74w9-5vxm
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.1
+- name: beego
+  description: Beego is an open-source
+  package_url: https://pkg.go.dev/github.com/astaxie/beego
+  version: 1.11.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/PetrJoe/beego-WebIM/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Anurag Goel
+  last_updated_on: 2019-04-09 19:30:00.000000000 Z
+- name: beego/i18n
+  description: Package i18n is for app Internationalization and Localization
+  package_url: https://pkg.go.dev/github.com/beego/i18n
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/PetrJoe/beego-WebIM/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Anurag Goel
+  last_updated_on: 2019-04-09 19:30:00.000000000 Z
+- name: goconfig
+  description: Package goconfig is a fully functional and comments-support configuration
+    file
+  package_url: https://pkg.go.dev/github.com/Unknwon/goconfig
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/PetrJoe/beego-WebIM/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Anurag Goel
+  last_updated_on: 2019-04-09 19:30:00.000000000 Z
